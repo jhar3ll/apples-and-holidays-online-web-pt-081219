@@ -34,10 +34,8 @@ def add_supply_to_memorial_day(supplies_hash, supply)
 end
 
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
-  
- holiday_hash[:autumn] = {}
- holiday_hash[:autumn][:columbus_day] = ["Beer"]
- holiday_hash
+    
+    holiday_hash[season][holiday_name] = 
 end
 
 def all_winter_holiday_supplies(holiday_hash)
